@@ -47,7 +47,7 @@ class text extends StatelessWidget {
           return 'This field is required';
         } else if (!isNumeric(value)) {
           return 'Enter numbers only';
-        } else if (hint == '  weight ') {
+        } else if (hint == ' Weight ') {
           double numberValue = double.parse(value!);
           if (numberValue <= 22.0 || numberValue > 136.0) {
             return ' Weight must be within the period [22.0 ,136.0]';
